@@ -1,0 +1,99 @@
+.wx-dropzone.wx-aacs4HKU {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 600px;
+  height: 300px;
+  padding: 58px 142px;
+  box-sizing: border-box;
+  border: 2px dashed var(--wx-border-color);
+  border-radius: var(--wx-radius-major);
+  background: var(--wx-excel-dropzone-bg);
+  cursor: pointer;
+  transition:
+    border-color 0.15s,
+    background-color 0.15s;
+}
+
+.wx-dropzone.wx-aacs4HKU:hover:not(.wx-disabled) {
+  border-color: var(--wx-excel-dropzone-border-hover);
+}
+
+.wx-dropzone.wx-aacs4HKU:focus {
+  outline: none;
+  border-color: var(--wx-color-primary);
+}
+
+.wx-dropzone.wx-dragging.wx-aacs4HKU {
+  border-color: var(--wx-color-primary);
+  background: var(--wx-color-primary-selected);
+}
+
+.wx-dropzone.wx-disabled.wx-aacs4HKU {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.wx-file-input.wx-aacs4HKU {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.wx-dropzone-icon-wrap.wx-aacs4HKU {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+  background: var(--wx-excel-upload-bg);
+  color: var(--wx-color-link);
+  flex-shrink: 0;
+}
+
+.wx-dropzone-icon.wx-aacs4HKU {
+  width: 24px;
+  height: 24px;
+}
+
+.wx-dropzone-text.wx-aacs4HKU {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.wx-dropzone-line.wx-aacs4HKU {
+  margin: 0;
+  font-size: var(--wx-font-size, 14px);
+  line-height: 20px;
+  color: var(--wx-color-font);
+  text-align: center;
+}
+
+.wx-dropzone-link.wx-aacs4HKU {
+  color: var(--wx-color-link);
+  font-weight: var(--wx-font-weight-md, 600);
+  margin-right: 4px;
+}
+
+.wx-dropzone-rest.wx-aacs4HKU {
+  font-weight: var(--wx-font-weight, 400);
+}
+
+.wx-dropzone-hint.wx-aacs4HKU {
+  margin: 0;
+  font-size: var(--wx-font-size, 14px);
+  line-height: 20px;
+  color: var(--wx-color-font);
+  text-align: center;
+}

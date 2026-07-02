@@ -1,0 +1,33 @@
+.wx-table-wrap.wx-aabGbUld {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  border-top: var(--wx-border);
+}
+
+.wx-table-scroll.wx-aabGbUld {
+  flex: 1;
+  overflow: auto;
+}
+
+.wx-table.wx-aabGbUld {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--wx-font-size);
+}
+
+.wx-table.wx-aabGbUld thead {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.wx-empty.wx-aabGbUld {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--wx-color-font-alt);
+  font-size: var(--wx-font-size);
+}

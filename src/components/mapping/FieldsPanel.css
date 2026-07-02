@@ -1,0 +1,25 @@
+.wx-fields-panel.wx-aadKlU7K {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  border-top: var(--wx-border);
+  border-left: var(--wx-border);
+  background: var(--wx-background);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.wx-panel-content.wx-aadKlU7K {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media (max-width: 900px) {
+  .wx-fields-panel.wx-aadKlU7K {
+    width: 240px;
+  }
+}

@@ -1,0 +1,47 @@
+.wx-field.wx-aacwkSqA {
+  padding: 8px 12px;
+  border-radius: var(--wx-radius-major);
+  transition: background-color 0.15s;
+}
+
+.wx-field.wx-aacwkSqA:hover {
+  background: var(--wx-background-alt);
+}
+
+.wx-field.wx-mapped.wx-aacwkSqA {
+  background: var(--wx-excel-highlight);
+}
+
+.wx-field-label.wx-aacwkSqA {
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: var(--wx-font-size);
+  font-weight: var(--wx-font-weight-md);
+  color: var(--wx-color-font);
+}
+
+.wx-field-name.wx-aacwkSqA {
+  flex: 1;
+}
+
+.wx-field-required.wx-aacwkSqA {
+  color: var(--wx-color-danger);
+  font-size: var(--wx-font-size-sm);
+}
+
+.wx-field-dropdown.wx-aacwkSqA {
+  margin-bottom: 8px;
+}
+
+.wx-field-dropdown.wx-aacwkSqA .wx-dropdown {
+  width: 100%;
+}
+
+.wx-field-preview.wx-aacwkSqA {
+  font-size: var(--wx-font-size-sm);
+  color: var(--wx-color-font-alt);
+  padding-left: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

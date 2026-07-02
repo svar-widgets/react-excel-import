@@ -1,0 +1,31 @@
+.wx-excel-import.wx-aabR0Ado {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.wx-content.wx-aabR0Ado {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.wx-willow-theme .wx-excel-import.wx-aabR0Ado {
+  --wx-excel-highlight: #f0f6fa;
+  --wx-excel-warning-bg: #fffaea;
+  --wx-excel-warning: var(--wx-color-warning);
+  --wx-excel-dropzone-bg: rgba(230, 230, 230, 0.1);
+  --wx-excel-dropzone-border-hover: var(--wx-color-font-disabled);
+  --wx-excel-upload-bg: var(--wx-background-alt);
+}
+
+.wx-willow-dark-theme .wx-excel-import.wx-aabR0Ado {
+  --wx-excel-highlight: #303539;
+  --wx-excel-warning-bg: #3a372c;
+  --wx-excel-warning: #c9a228;
+  --wx-excel-dropzone-bg: rgba(255, 255, 255, 0.02);
+  --wx-excel-dropzone-border-hover: var(--wx-color-disabled-alt);
+  --wx-excel-upload-bg: var(--wx-excel-highlight);
+}

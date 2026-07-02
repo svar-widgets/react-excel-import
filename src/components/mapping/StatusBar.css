@@ -1,0 +1,46 @@
+.wx-status.wx-aad20EKW {
+  padding: 0.75rem 1rem;
+  font-size: var(--wx-font-size);
+  flex-shrink: 0;
+}
+
+.wx-status.wx-info.wx-aad20EKW {
+  background: var(--wx-excel-highlight);
+  color: var(--wx-color-primary);
+}
+
+.wx-status.wx-warning.wx-aad20EKW {
+  background: var(--wx-excel-warning-bg);
+  color: var(--wx-excel-warning);
+}
+
+.wx-status-content.wx-aad20EKW {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.wx-status-icon.wx-aad20EKW {
+  width: 1.125rem;
+  height: 1.125rem;
+  flex-shrink: 0;
+}
+
+.wx-status-message.wx-aad20EKW {
+  flex: 1;
+}
+
+.wx-clear-link.wx-aad20EKW {
+  padding: 0;
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: var(--wx-font-size);
+  text-decoration: underline;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.wx-clear-link.wx-aad20EKW:hover {
+  opacity: 1;
+}

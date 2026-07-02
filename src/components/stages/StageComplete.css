@@ -1,0 +1,122 @@
+.wx-complete.wx-aacGdy31 {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.wx-card.wx-aacGdy31 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 56px 140px;
+  border-radius: 6px;
+}
+
+.wx-success.wx-aacGdy31 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.wx-success-icon.wx-aacGdy31 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+  background: rgba(0, 209, 154, 0.1);
+  color: var(--wx-color-success);
+}
+
+.wx-success-icon.wx-aacGdy31 svg {
+  width: 28px;
+  height: 28px;
+}
+
+.wx-text.wx-aacGdy31 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.wx-title.wx-aacGdy31 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: var(--wx-font-weight-md);
+  line-height: 20px;
+  color: var(--wx-color-font);
+  text-align: center;
+}
+
+.wx-paragraph.wx-aacGdy31 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.wx-subtitle.wx-aacGdy31 {
+  margin: 0;
+  font-size: var(--wx-font-size);
+  line-height: 20px;
+  color: var(--wx-color-font);
+}
+
+.wx-count.wx-aacGdy31 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: var(--wx-font-weight-md);
+  line-height: 20px;
+  color: var(--wx-color-success);
+}
+
+.wx-skipped.wx-aacGdy31 {
+  margin: 8px 0 0;
+  font-size: var(--wx-font-size-sm);
+  color: var(--wx-color-font-alt);
+}
+
+.wx-error-details.wx-aacGdy31 {
+  max-width: 400px;
+  text-align: left;
+}
+
+.wx-error-details.wx-aacGdy31 summary {
+  cursor: pointer;
+  font-size: var(--wx-font-size);
+  color: var(--wx-color-font-alt);
+  text-align: center;
+}
+
+.wx-error-details.wx-aacGdy31 summary:hover {
+  color: var(--wx-color-font);
+}
+
+.wx-error-list.wx-aacGdy31 {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+  font-size: var(--wx-font-size-sm);
+  color: var(--wx-color-font-alt);
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.wx-error-list.wx-aacGdy31 li {
+  margin: 0.25rem 0;
+}
+
+.wx-error-list.wx-aacGdy31 .wx-more {
+  font-style: italic;
+  color: var(--wx-color-font-disabled);
+}

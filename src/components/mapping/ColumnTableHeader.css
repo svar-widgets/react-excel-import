@@ -1,0 +1,44 @@
+.wx-col-header.wx-aaeNQ7jS {
+  padding: 8px;
+  border-bottom: var(--wx-border);
+  border-right: var(--wx-border);
+  min-width: 140px;
+}
+.wx-col-header.wx-aaeNQ7jS:last-child {
+  border-right: none;
+}
+
+.wx-col-header.wx-mapped.wx-aaeNQ7jS {
+  background: var(--wx-excel-highlight);
+}
+
+.wx-col-header.wx-right-align.wx-aaeNQ7jS .wx-col-info {
+  justify-content: flex-end;
+}
+
+.wx-col-dropdown.wx-aaeNQ7jS {
+  margin-bottom: 8px;
+}
+
+.wx-col-info.wx-aaeNQ7jS {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 4px;
+}
+
+.wx-col-name.wx-aaeNQ7jS {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: var(--wx-color-font);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wx-col-type.wx-aaeNQ7jS {
+  font-size: var(--wx-font-size-sm);
+  color: var(--wx-color-font-disabled);
+  flex-shrink: 0;
+}

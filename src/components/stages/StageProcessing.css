@@ -1,0 +1,15 @@
+.wx-processing.wx-aaaHAhSp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.wx-filename.wx-aaaHAhSp {
+  margin: 0;
+  font-size: var(--wx-font-size);
+  color: var(--wx-color-font-alt);
+}

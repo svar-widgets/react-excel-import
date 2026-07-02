@@ -1,0 +1,40 @@
+.wx-modal.wx-aadoCGFM {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wx-modal.wx-aadoCGFM::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+}
+
+.wx-modal-content.wx-aadoCGFM {
+  width: min(95vw, 1100px);
+  height: min(90vh, 624px);
+  background: var(--wx-background);
+  border-radius: var(--wx-radius-major);
+  box-shadow: var(--wx-shadow-medium);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: box-shadow 0.15s ease;
+}
+
+@media (max-width: 768px) {
+  .wx-modal-content.wx-aadoCGFM {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+  }
+}
