@@ -2,7 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './common/Index.jsx';
 
-import { Globals, Button, Segmented, Willow, WillowDark } from '@svar-ui/react-core';
+import {
+  Globals,
+  Button,
+  Segmented,
+  Willow,
+  WillowDark,
+} from '@svar-ui/react-core';
 
 import '@svar-ui/react-core/style.css';
 const skins = [

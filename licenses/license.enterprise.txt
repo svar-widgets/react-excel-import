@@ -1,0 +1,80 @@
+SVAR Enterprise License Agreement
+
+By purchasing, installing, or otherwise using the product identified above and/or its related materials, you agree to be bound by the terms and conditions of this License Agreement.
+
+Read carefully
+This license agreement (“LICENSE”) is a legal agreement between you (either an individual or a single entity, also referred to as “YOU” or “Licensee”) and XB Software Sp. z o.o. (“XB Software”), for the software containing this LICENSE which may also include the software's source code written in a high-level computer language, associated media, printed materials, and “online” or electronic documentation (collectively referred to as “SOFTWARE”).
+
+Software product license
+The SOFTWARE is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties, and contains confidential information and trade secrets. XB Software retains all rights not expressly granted to you in this LICENSE.
+
+I. Grant of license
+XB Software hereby grants to you, and you accept, a non-exclusive, non-transferable, worldwide license to install, copy, use and modify the SOFTWARE only as authorized below.
+
+The SVAR Enterprise license enables up to 20 Licensee developers to include the SOFTWARE in an unlimited number of projects developed by Licensee which may be sold and distributed. At no time may the SOFTWARE be used for development purposes by other individuals or entities.
+
+1. Source code and modifications
+The SOFTWARE is provided as a production-ready build, obfuscated and/or compressed, without technical comments. For Svelte packages, source code required for compilation is included in the “src” directory. For other packages, source code can be provided upon request.
+
+The SOFTWARE may include interconnected modules or sub-modules, which form an integral part of the package and are covered by this License.
+
+Modifications to the SOFTWARE by the Licensee are allowed, as long as they do not conflict with the LICENSE, but distribution by the Licensee of the modified SOFTWARE or part(s) of it as a standalone application is forbidden. A non-exclusive, royalty-free right is granted to XB Software to use, modify, and distribute the Licensee's modification in future versions of the SOFTWARE.
+
+2. Distribution
+Distribution standalone is prohibited. Distribution as a part of non-competitive products is allowed without limitation for number of copies.
+
+3. Support
+By using SVAR Enterprise license, you automatically apply for free-of-charge priority support (email support) on the product and receive free upgrades to next major, minor releases and patches within a year commencing on the date of purchase of the LICENSE. The priority support plan provides an unrestricted quantity of support tickets.
+
+The pricing and terms of use for each support type is provided on SVAR website and may be changed without notice.
+
+II. Other rights and limitations
+The SOFTWARE may not be distributed as part of products that have the same or substantially the same primary functionality, or are competitive to the Software (competitive products). Competitive products means any UI library, UI component library, design system, toolkit, or user interface framework substantially providing similar primary functionality as SVAR (i.e. reusable visual UI components, layouts, widgets, or theming engine).
+
+You are not allowed to use, transfer, assign, sublicense, copy, modify the SOFTWARE, or merge copies of the SOFTWARE and any accompanying documents in whole or in part except as permitted in this LICENSE.
+
+You agree to indemnify, hold harmless, and defend XB Software and its resellers from and against any and all claims or lawsuits including attorney's fees that arise or result from the use or distribution of YOUR software.
+
+Source code license limitations
+Under no circumstances may any portion of the SOFTWARE source code or any modified version of the source code be distributed, disclosed or otherwise made available to any third party.
+
+XB Software DOES NOT provide technical support for modified source code.
+
+In the event you develop any troubleshooting-related modifications of the SOFTWARE, either independently or jointly with XB Software, such modifications and all rights associated therewith will be the exclusive property of XB Software. You are granted the right to use such modifications as set forth in this agreement.
+
+You acknowledge that the SOFTWARE's source code contains valuable and proprietary trade secrets of XB Software. All Licensees or individuals employed by or belonging to Licensees agree to expend every effort to ensure its confidentiality. You agree to assume full responsibility for such employees' or contractors' use, or misuse, of such disclosed source code as if it were your use. These obligations shall not apply to any information generally available to the public, independently developed or obtained without reliance on XB Software information, or approved in writing for release by XB Software without restriction.
+
+III. Delivery
+XB Software shall deliver to you a master copy of the SOFTWARE licensed hereunder in electronic files only. Documentation shall also be provided in electronic format.
+
+IV. Upgrades
+You are eligible for free minor and major upgrades, patches, and bug-fixes for the SOFTWARE during a one-year period after buying the license, including source code if applicable. SOFTWARE labeled as an upgrade replaces and/or supplements (and may disable) the product that formed the basis for your eligibility for the upgrade. You may use the resulting upgraded product only in accordance with the terms of this LICENSE.
+
+V. Termination
+This LICENSE shall last as long as you use the SOFTWARE in compliance with this LICENSE. XB Software may terminate this LICENSE if you fail to comply with any of the terms and conditions herein. In such event you agree to remove and destroy all copies of the SOFTWARE and any applicable source code.
+
+XB Software reserves the right to discontinue any product at any time, shall it be offered individually or as a part of a products bundle. However, XB Software is obligated to provide the proper level of support for all discontinued products for a period of 1 (one) year after the date of discontinuance.
+
+VI. Copyright
+All title and copyrights in and to the SOFTWARE (including but not limited to any images, photographs, animations, video, audio, music, text, incorporated into the SOFTWARE), the accompanying printed materials, and any copies of the SOFTWARE, and any trademarks or service marks of XB Software are owned by XB Software. The Licensee shall not, and shall ensure that third parties do not, challenge XB Software's ownership of this intellectual property.
+
+All title and intellectual property rights in and to the content that may be accessed through use of the SOFTWARE is the property of the respective content owner and may be protected by applicable copyright or other intellectual property laws and treaties. This LICENSE grants you no rights to use such content.
+
+Use of the software and related documentation is governed by this license agreement accompanying the software and applicable copyright law. The documentation must always follow the related software. Making unauthorized copies, adaptations, or compilation works is prohibited. XB Software may revise this documentation from time to time without notice.
+
+Any open-source components included with the SOFTWARE are provided under their respective open-source licenses and subject to their terms.
+
+VII. Disclaimer of warranties
+The Software and documentation are provided “AS IS,” without a warranty of any kind.
+
+ALL EXPRESS OR IMPLIED REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT, ARE HEREBY EXCLUDED.
+
+VIII. Limitation of liability
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, XB Software SHALL NOT BE LIABLE OR RESPONSIBLE FOR ANY LOST DATA, REVENUE OR PROFITS, OR FOR ANY DIRECT OR INDIRECT DAMAGES, INJURIES OR LIABILITIES, CAUSED DIRECTLY OR INDIRECTLY BY THE USE OF THE LICENSED SOFTWARE OR DOCUMENTATION, INCLUDING BUT NOT LIMITED TO, INCIDENTAL, CONSEQUENTIAL OR SPECIAL DAMAGES, EVEN IF XB Software HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN ANY CASE, XB Software's TOTAL LIABILITY UNDER THIS LICENSE AGREEMENT (INCLUDING ANY ADDITIONAL TERMS) SHALL NOT EXCEED THE AMOUNT YOU PAID TO XB Software UNDER THIS LICENSE AGREEMENT DURING THE PRECEDING TWELVE MONTHS, EVEN IF ANY LIMITED REMEDY FAILS OF ITS ESSENTIAL PURPOSE.
+
+IX. Miscellaneous
+The Uniform Computer Information Transactions Act and the United Nations Convention on the International Sale of Goods shall not apply to this Agreement. If any provision of this LICENSE is to be held unenforceable, such holding will not affect the validity of the other provisions hereof. Failure of a party to enforce any provision of this LICENSE shall not constitute or be construed as a waiver of such provision or of the right to enforce such provision.
+
+This License represents the entire understanding between the parties with respect to its subject matter.
+
+YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT, THAT YOU UNDERSTAND THIS AGREEMENT, AND UNDERSTAND THAT BY CONTINUING THE INSTALLATION OF THE SOFTWARE PRODUCT, BY LOADING OR RUNNING THE SOFTWARE PRODUCT, OR BY PLACING OR COPYING THE SOFTWARE ONTO YOUR COMPUTER HARD DRIVE, YOU AGREE TO BE BOUND BY THIS AGREEMENT'S TERMS AND CONDITIONS. YOU FURTHER AGREE THAT, EXCEPT FOR WRITTEN SEPARATE AGREEMENTS BETWEEN XB SOFTWARE AND YOU, THIS AGREEMENT IS A COMPLETE AND EXCLUSIVE STATEMENT OF THE RIGHTS AND LIABILITIES OF THE PARTIES.

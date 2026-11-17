@@ -1,0 +1,34 @@
+# https://taskfile.dev
+
+version: "3"
+
+vars:
+  GREETING: Hello, World!
+
+tasks:
+  github:
+    env:
+      WX_BACKEND: "-backend.svar.dev"
+    cmds:
+      - .scripts/reset.sh
+      - .scripts/switch.sh mit
+      - .scripts/github.sh
+  npm:
+    cmds:
+      - .scripts/reset.sh
+      - .scripts/npm.sh
+  npm-legacy:
+    cmds:
+      - .scripts/reset.sh
+      - .scripts/switch.sh legacy
+      - .scripts/npm.sh
+  npm-trial:
+    cmds:
+      - .scripts/reset.sh
+      - .scripts/switch.sh trial
+      - .scripts/npm.sh
+  npm-mit:
+    cmds:
+      - .scripts/reset.sh
+      - .scripts/switch.sh mit
+      - .scripts/npm.sh

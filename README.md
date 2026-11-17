@@ -1,37 +1,26 @@
-<div align="center">
+# SVAR React Excel Import PRO
 
-# SVAR React Excel Import
+This package contains the **PRO Edition of SVAR React Excel Import**, which provides extra features for production projects.
 
-</div>
+**Depending on the license you purchased**, you are granted the right to use this package under one of the following commercial licenses:
 
-<div align="center">
+- [Developer License](https://svar.dev/licenses/license-agreements/#developer)
+- [Application License](https://svar.dev/licenses/license-agreements/#application)
+- [Team License](https://svar.dev/licenses/license-agreements/#team)
+- [Enterprise License](https://svar.dev/licenses/license-agreements/#enterprise)
 
-[![npm](https://img.shields.io/npm/v/@svar-ui/react-excel-import.svg)](https://www.npmjs.com/package/@svar-ui/react-excel-import)
-[![License](https://img.shields.io/github/license/svar-widgets/react-excel-import)](https://github.com/svar-widgets/react-excel-import/blob/main/license.txt)
-[![npm downloads](https://img.shields.io/npm/dm/@svar-ui/react-excel-import.svg)](https://www.npmjs.com/package/@svar-ui/react-excel-import)
+### Get Help
 
-</div>
+If you have technical questions about using SVAR React Excel Import, you can use our [SVAR forum](https://forum.svar.dev/) or contact us at support@svar.dev (please provide your license number).
 
-[SVAR React Excel Import](https://svar.dev/) is a customizable, high-performance React component for importing data from `.xlsx`, `.csv`, and `.tsv` files. It parses a file, lets users map source columns to your application fields, transforms rows into keyed objects, and returns the imported data to your app.
+### How to Use
 
-The component helps you quickly add a guided import modal to React applications with minimal setup. Includes TypeScript support and is compatible with React 18+ and Next.js.
-
-### ✨ Key Features
-
-- Modal import wizard for `.xlsx`, `.csv`, and `.tsv` files
-- Automatic column-to-field mapping with header and keyword detection
-- Multi-sheet workbook support
-- Light and dark themes
-- Full TypeScript support
-
-### :hammer_and_wrench: How to Use
-
-Import the package, render it while the import modal should be open, and pass the target `fields` the source columns can map to:
+To use the widget, import the package, render it while the import modal should be open, and pass the target `fields` the source columns can map to:
 
 ```jsx
 import { useState } from 'react';
-import { ExcelImport } from '@svar-ui/react-excel-import';
-import '@svar-ui/react-excel-import/all.css';
+import { ExcelImport } from '@svar/react-excel-import';
+import '@svar/react-excel-import/all.css';
 
 const fields = [
   { id: 'name', label: 'Name', required: true },
@@ -59,12 +48,4 @@ export default function App() {
 }
 ```
 
-By default, the widget accepts `.xlsx`, `.csv`, and `.tsv` files and renders mapping selectors in both the table headers and the right-side fields panel. Use the `accept` and `selectors` props to change this.
-
-### :speech_balloon: Need Help?
-
-[Post an issue](https://github.com/svar-widgets/react-excel-import/issues) or use our [community forum](https://forum.svar.dev).
-
-### ⭐ Show Your Support
-
-If SVAR React Excel Import helps your project, [give it a star](https://github.com/svar-widgets/react-excel-import). It helps other developers discover this library and motivates us to keep improving.
+See the [docs](https://docs.svar.dev/react/excel-import/) to learn how to configure fields, mapping, validation, and integrations.

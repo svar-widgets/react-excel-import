@@ -10,8 +10,4 @@ export { default as StageProcessing } from './components/stages/StageProcessing.
 export { default as StageMapping } from './components/stages/StageMapping.jsx';
 export { default as StageComplete } from './components/stages/StageComplete.jsx';
 
-export {
-	WizardContext,
-	WizardProvider,
-	useWizardContext,
-} from './context.jsx';
+export { WizardContext, WizardProvider, useWizardContext } from './context.jsx';
